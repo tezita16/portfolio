@@ -1,0 +1,255 @@
+html, body, main, section {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: 'Work Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*NAVBAR*/
+#nav {
+  padding-bottom: 10px;
+  position: fixed;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  width: 100%;
+  z-index: 2;
+  font-size: 18px;
+  background-image: linear-gradient(260deg, #2A85BC 0%, #044059 100%);
+}
+
+#main-nav {
+  list-style-type: none;
+  display: none;
+  flex-direction: column;
+  z-index: 3;
+}
+
+#main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.nav-links,
+#logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#logo:hover,
+.nav-links:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+#logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+#navbar-toggle:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.icon {
+  display: none;
+}
+
+/*SECTIONS*/
+.content {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1em;
+  justify-content: space-around;
+  padding: 3vh 3vw;
+}
+
+.sectionHeader {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.sectionTitle {
+  text-align: center;
+  align-self: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+/*SECTION HEADERS*/
+#workHeader {
+  background-image: url("../img/code.jpg");
+}
+
+#contactHeader {
+  background-image: url("../img/arcade.jpg");
+}
+
+/*HERO SECTION*/
+#hero {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+}
+
+#nameOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  margin: 0 auto;
+  font-size: 2em;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding: 0 2vw;
+}
+
+/*ABOUT SECTION*/
+#about {
+  padding-top: 5vh;
+}
+
+.aboutIcon {
+  font-size: 3em;
+  margin-bottom: 2vh;
+}
+
+#aboutImg {
+  width: 40%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#headshot {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#aboutText {
+  width: 50%;
+}
+
+.aboutGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10vh;
+  width: 100%;
+}
+.aboutGrid .aboutCol {
+  width: 32%;
+  text-align: center;
+}
+
+/*WORK SECTION*/
+#exampleWork {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3vh 0;
+}
+
+.projectImg {
+  width: 100px;
+  height: 100px;
+}
+
+.projectDetails {
+  width: 70%;
+}
+
+/*CONTACT SECTION*/
+#contact {
+  justify-content: center;
+}
+
+#contactInfo {
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 5vh;
+}
+
+#social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.sociali {
+  font-size: 2em;
+  line-height: 1.2em;
+  padding: 10px;
+  background: #2A85BC;
+  color: #fff;
+  margin-right: 2vw;
+  margin-bottom: 10px !important;
+  padding-bottom: 10px !important;
+}
+.sociali:hover, .sociali:focus {
+  background: #044059;
+}
