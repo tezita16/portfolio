@@ -1,0 +1,77 @@
+@media screen and (max-width: 390px) {
+  .name {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 391px) and (max-width: 500px) {
+  .name {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #aboutImg {
+    width: 100%;
+  }
+
+  #aboutSecond {
+    width: 100%;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .projectDetails {
+    width: 80%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .project {
+    width: 100%;
+  }
+}
+
+
+/*NAVBAR*/
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    box-sizing: border-box;
+
+  }
+
+  #main-nav {
+    display: flex !important;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+    z-index: 3;
+  }
+
+  #main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  #logo {
+    margin-top: 0;
+  }
+  
+  #navbar-toggle {
+    display: none;
+  }
+}
