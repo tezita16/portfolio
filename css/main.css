@@ -3,7 +3,7 @@ html, body, main, section {
   padding: 0;
   box-sizing: border-box;
   width: 100%;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Mali', cursive;
   overflow-x: hidden;
 }
 
@@ -14,7 +14,7 @@ div {
 h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Indie Flower', cursive;
 }
 
 /*NAVBAR*/
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   z-index: 2;
   font-size: 18px;
-  background-image: linear-gradient(260deg, #2A85BC 0%, #044059 100%);
+  background-image: url(https://assets.weforum.org/article/image/large_LGXyuFS6_TvF46UT8BFudkxcySQfy_E49h-KPO_kAe0.jpg);
 }
 
 #main-nav {
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*SECTION HEADERS*/
 #workHeader {
-  background-image: url("../img/code.jpg");
+  background-image: url("https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/1/13/0/vday_chocolatestraw_4697_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371589312322.jpeg");
 }
 
 #contactHeader {
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 50vh;
   width: 100%;
   height: 100vh;
-  background-image: url("../img/hero.jpg");
+  background-image: url("http://msmoem.com/wp-content/uploads/2014/07/poem-about-beauty.jpg");
   background-size: cover;
 }
 
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -145,15 +145,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .name {
   margin: 0 auto;
+
   font-size: 2em;
   text-align: center;
   background-color: grey;
   color: white;
-  padding: 0 2vw;
+  padding: 0 1vw;
 }
 
 /*ABOUT SECTION*/
-#about {
+#about { 
+    background-image:url(http://www.framptonretail.com/wp-content/uploads/2018/02/womens-low-top-vans-checkerboard-old-skool-platform-blacktrue-white.jpg);
   padding-top: 5vh;
 }
 
@@ -191,6 +193,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*WORK SECTION*/
+#work {
+ background-image:url(https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/1/13/0/vday_chocolatestraw_4697_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371589312322.jpeg);   
+}
 #exampleWork {
   display: flex;
   align-items: center;
